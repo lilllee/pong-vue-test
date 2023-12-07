@@ -15,6 +15,8 @@
   </template>
 
   <script>
+  import router from "@/router";
+
   export default {
     props: ['dataImage', 'headerText', 'headerContent'],
     data() {
@@ -80,6 +82,11 @@
       }, 
       navi: function () {
         const current = `${this.headerText}`;
+        if ( current === 'Multi') {
+          router.push({ name : "room" });
+        } else if ( current === 'Single' ) {
+          router.push( { name : "single" });
+        }
         console.log(current + 'click');
       }
     }
