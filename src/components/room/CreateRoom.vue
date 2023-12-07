@@ -1,7 +1,7 @@
 <script setup>
 
-import HeaderView from "@/components/HeaderView.vue";
-import FooterView from "@/components/FooterView.vue";
+import HeaderView from "@/components/common/HeaderView.vue";
+import FooterView from "@/components/common/FooterView.vue";
 </script>
 
 <template>

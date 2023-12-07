@@ -1,11 +1,6 @@
 <script setup>
-  // import axios from "axios";
-
-  // let roomList;
-  // roomList = axios.get("/roomList", {}, {}, {});
-  // console.log(roomList);
-import HeaderView from "@/components/HeaderView.vue";
-import FooterView from "@/components/FooterView.vue";
+import HeaderView from "@/components/common/HeaderView.vue";
+import FooterView from "@/components/common/FooterView.vue";
   import router from "@/router";
 </script>
 

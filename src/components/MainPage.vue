@@ -39,8 +39,8 @@
 
 <script>
 import GroupButton from './MainPageGroupButtons.vue';
-import HeaderView from './HeaderView.vue'
-import FooterView from './FooterView.vue'
+import HeaderView from './common/HeaderView.vue'
+import FooterView from './common/FooterView.vue'
 
 export default {
   name: 'MainPage',

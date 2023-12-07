@@ -42,9 +42,9 @@
 </template>
 
 <script>
-import UserService from "@/service/UserService";
-import HeaderView from "@/components/HeaderView.vue";
-import FooterView from "@/components/FooterView.vue";
+import UserService from "@/service/user/UserService";
+import HeaderView from "@/components/common/HeaderView.vue";
+import FooterView from "@/components/common/FooterView.vue";
 import router from "@/router";
 
 export default {
